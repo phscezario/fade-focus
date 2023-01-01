@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+
+    <link rel="stylesheet" href="css/fade-effect.css" type="text/css" />
+
+    <style>
+        div {
+            display: block;
+            width: 100px;
+            height: 100px;
+            border: 1px solid #000;
+            float: left;
+            margin: 100px 20px;
+        }
+    </style>
+
+</head>
+<body>
+    <div class="fade-in" data-animation-time="3">Fade In</div>
+    <div class="fade-left" data-animation-delay="0.5">Box Left</div>
+    <div class="fade-right">Box Right</div>
+    <div class="fade-up">Box Up</div>
+    <div class="fade-down">Box Down</div>
+
+    <div>
+        <ul class="fade-cascade">
+            <li>01</li>
+            <li>02</li>
+            <li>03</li>
+        </ul>
+    </div>
+    <div>
+        <ul class="fade-cascade fade-left" data-animation-direction="right" data-animation-increment="0.2">
+            <li>01</li>
+            <li>02</li>
+            <li>03</li>
+        </ul>
+    </div>
+
+
+    <script src="js/fade-effect.js"></script>
+    
+</body>
+</html>

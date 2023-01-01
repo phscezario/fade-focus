@@ -1,0 +1,72 @@
+/**
+ * Plugin criado por:
+ * Paulo Cezario
+ * https://github.com/phscezario
+ **/
+ 
+/* animations */
+@keyframes fadeIn{
+    0% {opacity: 0;}
+    100% {opacity: 1;}
+} 
+@keyframes startLeft {
+    0% {
+        opacity: 0;
+        transform: translateX(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}     
+@keyframes startRight {
+    0% {
+        opacity: 0;
+        transform: translateX(100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0);
+    }
+}
+@keyframes startUp{
+    0% {
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}     
+@keyframes startDown{
+    0% {
+        opacity: 0;
+        transform: translateY(100px);
+    }
+    100% {
+        opacity:1;
+        transform: translateY(0);
+    }
+}
+.fade-left, .fade-right, .fade-up, .fade-down, .fade-in {
+    animation-duration: 1.5s;
+    animation-fill-mode: both;
+    animation-play-state: paused;
+    animation-delay: 0s;
+}
+.fade-left{
+    animation-name: startLeft;
+}
+.fade-right {
+    animation-name: startRight;
+}
+.fade-up {
+    animation-name: startUp;
+}
+.fade-down {
+    animation-name: startDown;
+}
+.fade-in {
+    animation-name: fadeIn;
+}
