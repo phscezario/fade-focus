@@ -2,7 +2,7 @@
 
 ### Elementos aparecendo quando estão em focus
 
-<a href="https://phscezario.github.io/fade-focus/" target="new">Veja Aqui</a>
+<a href="https://phscezario.github.io/fade-focus/">Veja Aqui</a>
 
 ## Como usar:
 
